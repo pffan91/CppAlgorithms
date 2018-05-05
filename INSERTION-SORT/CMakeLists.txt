@@ -5,6 +5,7 @@ project(INSERTION_SORT)
 enable_testing()
 
 include_directories(src)
-add_subdirectory(tests)
+#add_subdirectory(tests)
+add_subdirectory(tests_catch)
 add_executable(INSERTION_SORT main.cpp)
 
